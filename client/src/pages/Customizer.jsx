@@ -17,7 +17,7 @@ const Customizer = () => {
 
   return (
     <AnimatePresence>
-        {! snap.intro && (
+        {!snap.intro && (
           <>
             <motion.div
               key="custom"
@@ -46,15 +46,14 @@ const Customizer = () => {
                 title="Go Back"
                 handleClick={() => state.intro =  true}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
-              />
-            
+              /> 
             </motion.div>
 
             <motion.div
               className="filtertabs-container"
               {...slideAnimation("up")}
             >
-              {filterTabs.map((tab) => (
+              {FilterTabs.map((tab) => (
                     <Tab 
                       key={tab.name}
                       tab={tab}
@@ -64,6 +63,7 @@ const Customizer = () => {
                     />
               ))}
             </motion.div>
+
           </>
         )}
     </AnimatePresence>
