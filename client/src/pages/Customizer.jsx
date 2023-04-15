@@ -15,6 +15,33 @@ import {AIPicker,ColorPicker,FilePicker,Tab, CustomButton} from "../components"
 const Customizer = () => {
   const snap = useSnapshot(state)
 
+  // show tab contain depending on the activeTab
+
+  const [file, setFile] = useState("")
+
+  const [prompt, setPrompt] = useState("")
+  const [generatingImg, setGeneratingImg] = useState(false)
+
+  const [activeEditorTab, setActiveEditorTab] = useState("")
+  const [activeFilterTab, setActiveFilterTab] = useState({
+    logoShirt: true,
+    stylishShirt: false,
+  })
+
+  const generateTabContent = () => {
+    switch (activeEditorTab) {
+      case "colorPicker":
+        return <ColorPicker />
+      case "filePicker":
+        return <FilePicker />
+      case "aipicker":
+        return <AIPicker />
+
+      default:
+        return null
+    }
+  }
+
   return (
     <AnimatePresence>
         {!snap.intro && (
@@ -30,9 +57,10 @@ const Customizer = () => {
                     <Tab 
                       key={tab.name}
                       tab={tab}
-                      handleClick={() => {}}
+                      handleClick={() => setActiveEditorTab(tab.name)}
                     />
                   ))}
+                  {generateTabContent()}
                 </div>
               </div> 
             </motion.div>
@@ -63,7 +91,6 @@ const Customizer = () => {
                     />
               ))}
             </motion.div>
-
           </>
         )}
     </AnimatePresence>
