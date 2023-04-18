@@ -1,16 +1,18 @@
 import express from "express"
 import * as dotenv from "dotenv"
-import { Configuration,OpenAIApi } from "openai"
+//import { Configuration,OpenAIApi } from "openai"
+
+import { createClient } from 'pexels'
 
 dotenv.config()
 
 const router = express.Router()
 
-const config = new Configuration({
+const config = createClient({
     apiKey: process.env.OPENAI_API_KEY,
 })
 
-const openai = new OpenAIApi(config)
+//const openai = new OpenAIApi(config)
 
 router.route("/").get((req, res) => {
     res.status(200).json({ message: "Hello from DALLE Routes"})
@@ -19,11 +21,10 @@ router.route("/").get((req, res) => {
 router.route("/").post( async (req,res) => {
     try {
         const { prompt } = req.body 
-        const response = await openai.createImage({
-            prompt,
-            n:1,
-            size: "1024×1024",
-            respose_format: "b64_json",
+        const response = await config.photos.show({
+            id: 2014422,
+        }).then(photo => {
+
         })
 
         const image = response.data.data[0].b64_json
