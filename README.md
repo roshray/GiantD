@@ -22,14 +22,14 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/roshray/GiantD/client">
+  <a href="https://github.com/roshray/GiantD/client/">
     <img src="src/assets/swatch.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/roshray/GiantD/blob/main/client/images/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,15 +102,14 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+AI Fashioned Image generator based on prompt !
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Navigate to `package.json` & install.
 * npm
   ```sh
-  npm install npm@latest -g
+  npm install 
   ```
 
 ### Installation
@@ -120,7 +119,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/roshray/GiantD.git
    ```
-3. Install NPM packages
+3. Install NPM `package.json`
    ```sh
    npm install
    ```
@@ -141,9 +140,7 @@ Demos :
 _For more, please refer to the [Youtube](https://www.youtube.com/watch?v=oH-orlPaus4)_
 
 
-<a href="https://github.com/roshray/GiantD/client">
-    <img src="images/color.png" alt="Feature page" width="180" height="90">
-  </a>
+![color](https://github.com/roshray/GiantD/blob/main/client/images/color.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,10 +149,10 @@ _For more, please refer to the [Youtube](https://www.youtube.com/watch?v=oH-orlP
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] ColorPicker
-- [ ] Upload logo
-- [ ] Write a prompt
-    - [ ] Generate Image base on prompt
+- [×] ColorPicker
+- [×] Upload logo
+- [×] Write a prompt
+    - [×] Generate Image base on prompt
 
 See the [open issues](https://github.com/roshray/GiantD/issues) for a full list of proposed features (and known issues).
 
@@ -166,7 +163,8 @@ See the [open issues](https://github.com/roshray/GiantD/issues) for a full list 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. 
+Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -203,7 +201,6 @@ Project Link: [https://github.com/roshray/GiantD](https://github.com/roshray/Gia
 * [Open AI](https://openai.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
