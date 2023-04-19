@@ -1,42 +1,22 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/roshray/GiantD/client/">
-    <img src="src/assets/swatch.png" alt="Logo" width="80" height="80">
+  <a href="client/images/">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">ThreeJS</h3>
 
   <p align="center">
-    project_description
+    3D based modern site using threejs!
     <br />
     <a href="https://github.com/roshray/GiantD"><strong>Explore the docs »</strong></a>
     <br />
@@ -77,13 +57,12 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/roshray/GiantD/blob/main/client/images/)
+`HomePage`
 
+![color](https://github.com/roshray/GiantD/blob/main/client/images/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +70,7 @@
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![Three][Three.js]][Three-url]
 * [![React][React.js]][React-url]
 
 
@@ -114,7 +93,7 @@ Navigate to `package.json` & install.
 
 ### Installation
 
-1. Get a OpenAI API Key at [https://openai.com](https://openai.com)
+1. Get an OpenAI API Key at [https://openai.com](https://openai.com)
 2. Clone the repo
    ```sh
    git clone https://github.com/roshray/GiantD.git
@@ -139,8 +118,13 @@ Demos :
 
 _For more, please refer to the [Youtube](https://www.youtube.com/watch?v=oH-orlPaus4)_
 
+`color Picker`
 
 ![color](https://github.com/roshray/GiantD/blob/main/client/images/color.png)
+
+`File Picker`
+
+![color](https://github.com/roshray/GiantD/blob/main/client/images/file.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,15 +133,14 @@ _For more, please refer to the [Youtube](https://www.youtube.com/watch?v=oH-orlP
 <!-- ROADMAP -->
 ## Roadmap
 
-- [×] ColorPicker
-- [×] Upload logo
+- [×] ColorPicker component to change the color of the object(shirt in this case)
+- [×] Upload File(image)
 - [×] Write a prompt
     - [×] Generate Image base on prompt
 
 See the [open issues](https://github.com/roshray/GiantD/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -218,8 +201,8 @@ Project Link: [https://github.com/roshray/GiantD](https://github.com/roshray/Gia
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Three.js]: https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white
+[Three-url]: https://threejs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 
