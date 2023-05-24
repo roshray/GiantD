@@ -21,7 +21,7 @@
     <a href="https://github.com/roshray/GiantD"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/roshray/GiantD">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=oH-orlPaus4">View Demo</a>
     ·
     <a href="https://github.com/roshray/GiantD/issues">Report Bug</a>
     ·
